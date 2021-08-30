@@ -7,6 +7,14 @@
             *{
                 font-family: 'Roboto', sans-serif;
             }
+            a{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-decoration: none;
+                color: black;
+                height: 100%;
+            }
             body{
                 margin: 0px;
                 background-color: #bbbbbb;
@@ -23,28 +31,80 @@
                 color: black;
                 border: 1px solid black;
                 width: 100%;
-                height: 100%;table tbody tr th
-            }
-            table caption{
-                padding:4px;
-                text-align:center;
-                color:black;
-                border: 1px solid black;
-                border-bottom: 0px;
+                height: 100%;
             }
             table tbody tr{
-                padding:4px;
+                padding:0px;
+                margin:0px;
+                /* padding:4px; */
                 text-align:center;
                 border: 1px solid black;
             }
             table tbody tr th, table tbody tr td{
-                background-color: #574e6d;
-                padding:4px;
+                
+                padding:0px;
+                margin:0px;
+                background-color: white;
+                padding:0px;
                 text-align:center;
                 border: 1px solid black;
             }
             table tbody tr th{
                 background-color: #666666;
+                color: white;
+            }
+            table tbody tr td{
+                font-weight: bolder;
+                background-color: #aaa;
+            }
+            .dbms{
+                background-color: #f8a978;
+            }
+            .dbms:hover a{
+                background-color: #666;
+                color: #f8a978;
+            }
+            .dbmsl{
+                background-color: #a6fff2;
+            }
+            .dbmsl:hover a{
+                background-color: #666;
+                color: #a6fff2;
+            }
+            .os{
+                background-color: tomato;
+            }
+            .os:hover a{
+                background-color: #666;
+                color: tomato;
+            }
+            .alg{
+                background-color: #f5b5fc;
+            }
+            .alg:hover a{
+                background-color: #666;
+                color: #f5b5fc;
+            }
+            .ppl{
+                background-color: #f0f696;
+            }
+            .ppl:hover a{
+                background-color: #666;
+                color: #f0f696;
+            }
+            .it{
+                background-color: #a7ff83;
+            }
+            .it:hover a{
+                background-color: #666;
+                color: #a7ff83;
+            }
+            .itl{
+                background-color: #4b8dff;
+            }
+            .itl:hover a{
+                background-color: #666;
+                color: #4b8dff;
             }
         </style>
     </head>
@@ -70,36 +130,36 @@
                     </tr>
                     <tr>
                         <th class="day">MONDAY</th>
-                        <td class="dbms" colspan="2">DATABASE MANAGEMENT SYSTEM</td>
-                        <td class="os" colspan="2">OPERATING SYSTEM</td>
-                        <td class="dbmsl" colspan="3">DATABASE MANAGEMENT SYSTEM - LAB</td>
+                        <td class="dbms" colspan="2"><a href="https://meet.google.com/">DATABASE MANAGEMENT SYSTEM</a></td>
+                        <td class="os" colspan="2"><a href="https://zoom.us/j/99961176168?pwd=L3ZQVVRNbU16bkRoZHVUNllRTkJjUT09">OPERATING SYSTEM</a></td>
+                        <td class="dbmsl" colspan="3"><a href="https://meet.google.com/">DATABASE MANAGEMENT SYSTEM - LAB</a></td>
 
                     </tr>
                     <tr>
                         <th class="day">TUESDAY</th>
-                        <td class="alg" colspan="2">ALGORITHMS</td>
+                        <td class="alg" colspan="2"><a href="https://meet.google.com/">ALGORITHMS</a></td>
                         <td class="lei" colspan="3">-</td>
-                        <td class="ppl" colspan="1">PRINCIPLES OF PROGRAMMING LANGUAGE</td>
+                        <td class="ppl" colspan="1"><a href="https://meet.google.com/">PRINCIPLES OF PROGRAMMING LANGUAGE</a></td>
                         <td class="lei" colspan="1">-</td>
                     </tr>
                     <tr>
                         <th class="day">WEDNESDAY</th>
-                        <td class="alg" colspan="1">ALGORITHMS</td>
-                        <td class="itl" colspan="3">INTERNET TECHNOLOGIES - LAB</td>
-                        <td class="it" colspan="1">INTERNET TECHNOLOGIES</td>
+                        <td class="alg" colspan="1"><a href="https://meet.google.com/">ALGORITHMS</a></td>
+                        <td class="itl" colspan="3"><a href="https://meet.google.com/">INTERNET TECHNOLOGIES - LAB</a></td>
+                        <td class="it" colspan="1"><a href="https://meet.google.com/">INTERNET TECHNOLOGIES</a></td>
                         <td class="lei" colspan="2">-</td>
                     </tr>
                     <tr>
                         <th class="day">THURSDAY</th>
                         <td class="lei" colspan="1">-</td>
-                        <td class="dbms" colspan="1">DATABASE MANAGEMENT SYSTEM</td>
-                        <td class="it" colspan="2">INTERNET TECHNOLOGIES</td>
+                        <td class="dbms" colspan="1"><a href="https://meet.google.com/">DATABASE MANAGEMENT SYSTEM</a></td>
+                        <td class="it" colspan="2"><a href="https://meet.google.com/">INTERNET TECHNOLOGIES</a></td>
                         <td class="lei" colspan="3">-</td>
                     </tr>
                     <tr>
                         <th class="day">FRIDAY</th>
-                        <td class="ppl" colspan="2">PRINCIPLES OF PROGRAMMING LANGUAGE</td>
-                        <td class="os" colspan="2">OPERATING SYTEM</td>
+                        <td class="ppl" colspan="2"><a href="https://meet.google.com/">PRINCIPLES OF PROGRAMMING LANGUAGE</a></td>
+                        <td class="os" colspan="2"><a href="https://meet.google.com/">OPERATING SYTEM</a></td>
                         <td class="lei" colspan="3">-</td>
                     </tr>
                 </tbody>
