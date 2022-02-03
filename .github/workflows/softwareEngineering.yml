@@ -1,0 +1,12 @@
+name: softwareEngineering
+on:
+  schedule:
+    - cron: '10-30 5 * * 3'
+    - cron: '10-30 6 * * 4'
+  workflow_dispatch: 
+jobs:
+  curl:
+    runs-on: ubuntu-latest
+    steps:
+    - name: curl
+      run: curl -X POST -H 'content-type:application/json' ${{ secrets.DISCORDURL }} --data '${{ secrets.SOFTWAREENGINEERING }}'
